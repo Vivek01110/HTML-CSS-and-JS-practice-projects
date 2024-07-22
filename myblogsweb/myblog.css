@@ -1,0 +1,172 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    height:100%;
+    width:100%;
+    /* border:2px red solid; */
+    display:flex;
+    justify-content: center;
+    
+}
+.container{
+    /* border:solid 2px black; */
+    width:75vw;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+header{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin-bottom:3rem;
+    margin-top:2rem;
+    
+}
+header h1{
+    font-size:2.5rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     
+    font-weight: 900;
+    color:rgb(57, 57, 57);
+    text-shadow:1px 1px 0px rgb(168, 165, 168);
+}
+header p{
+    font-size: 1.6em;
+    width:25em;
+    text-align: center;
+    margin-top:20px;
+    color:rgb(92, 85, 85);
+    text-shadow: 1px 1px 4px rgb(172, 172, 172);
+}
+.main_container{
+    /* margin-top:20px; */
+    padding:20px;
+    height:70%;
+    width:100%;
+    display:grid;
+    grid-template-rows:repeat(2,1fr);
+    grid-template-columns:repeat(4,1fr);
+    row-gap:3rem;
+    column-gap: 2rem;
+}
+@media (max-width:1450px){
+    .main_container{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media (max-width:1150px){
+    .main_container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width:900px){
+    .main_container{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+.card_container{
+    border:1px solid rgb(149, 145, 145); 
+    display:flex;
+    flex-direction:column;
+    box-shadow: 2px 2px 10px rgb(150, 148, 148);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function:ease-out;
+    
+
+}
+.card_container:hover
+    {
+    scale:1.02;
+    box-shadow: .4rem .4rem 1.5rem  blue;
+    
+
+}
+.card_img_container{
+    position:relative; /*img will inside its container */
+     overflow:hidden;  /*kyuki screen joom karnepar overflow na ho;*/
+    height:12rem;
+    
+}
+@media(min-width:890px){
+    .card_img_container{
+        height:15rem;
+    }
+}
+.card_img_container img{
+    object-fit: cover;
+    object-position: center;
+    position:absolute;
+    height:100%;
+    width:100%;
+    /* box-shadow:1px 0px 1px black, 2px 0px 1px rgb(128, 0, 107); */
+}
+.card_title_container{
+    display:flex;
+    flex-direction: column;
+    margin-left:1.5rem;
+}
+.card_title_container a{
+    color:rgb(50, 50, 50);
+    margin-top:20px;
+    text-decoration:none;
+    font-size:25px;
+    font-weight: 1000;
+}
+.card_title_container p{
+    margin-top:.7em;
+    font-size:1.1rem;
+    color:rgb(79, 77, 77);
+
+}
+.card_title_container a:hover{
+    color:rgb(11, 11, 112);
+}
+.auther_info_container{
+    margin-top:2.4rem;
+    margin-bottom:1.2rem;
+    margin-left:1.2rem;
+    margin-right:1.2rem;
+    /* border:solid 2px black; */
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.auther_info_container .avtar img{
+    height:4rem;
+    width:4rem;
+}
+.avtar{
+    margin-right:1rem;
+}
+.auther_info_container .card_category{
+
+    border:1px solid rgb(60, 60, 60);
+    padding:.5rem;
+    width:6.9rem;
+    height:2rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.2em;
+    margin-left:1.5rem;
+}
+.card_athr_name{
+    color:rgb(54, 39, 110);
+    font-weight:550;
+    font-size:1.2em;
+}
+.card_athr_dob{
+    font-size:1.2em;
+    color:rgb(94, 93, 93);
+}
+
+
