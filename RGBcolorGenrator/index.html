@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+      <h1 id = "rgb_title">RGB Color Generator</h1>
+        <div id = "box"></div>
+        <div class="range_container ">
+
+            <p>Red <input type="range" value = "125" min = "0"  max = "255" id = "red_range"  oninput="this.nextElementSibling.value = this.value">
+            <output>125</output> </p>
+
+            <p>Green  <input type="range" value = "125" min = "0"  max = "255" id = "Green_range" oninput="this.nextElementSibling.value = this.value">
+            <output id="green_output">125</output></p>
+
+            <p>Blue <input type="range" value = "125" min = "0"  max = "255" id = "Blue_range" oninput="this.nextElementSibling.value = this.value">
+            <output id = "blue_output">125</output>
+            </p>
+
+        </div>
+        <div id = "bottom_container">
+
+            <Button id = "copy_Button">Copy</Button>
+
+            <div class="rgb_value_container">
+                <span id = "rgb_value">rgb(50,50,50)</span>
+            </div>
+
+        </div>
+    </div>
+     
+</body>
+ <script src="script.js"></script>
+</html>
