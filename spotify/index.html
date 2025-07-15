@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="assets/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="main">
+        <header class = "navbar">
+            <div class="nav_boxes nav_box1">
+                <img src="assets/spotify_icon.png" alt="img" id = "spotify_icon">
+            </div>
+            <div class="nav_boxes nav_box2">
+                    <i class="fa-solid fa-house nav_search_icons"></i>
+                    <div>
+                        <i class="fa-solid fa-magnifying-glass nav_search_icons"></i>
+                        <input type="text" Placeholder = "What do you want to play ?">
+                    </div>
+            </div>
+            <div class="nav_boxes nav_box3">
+                <a href="https://open.spotify.com/download">
+                    <i class="fa-solid fa-circle-arrow-down"></i>
+                    <span>install App</span>
+                </a>
+                 <div>
+                    <i class="fa-regular fa-bell nav_search_icons_end"></i>
+                    <i class="fa-solid fa-user-group nav_search_icons_end"></i>   
+                    <i class="fa-solid fa-circle-user nav_search_icons_end profile_icon"></i>
+                </div>
+            </div>
+        </header>
+
+
+    <div class = "side_main_container">
+        <aside class="sidebar">
+            <div class="side_box1">
+                <h4>Your Library</h4>
+                <Button >
+                    <i class="fa-solid fa-plus"></i>
+                    <span>Create</span>
+                </Button>
+            </div>
+            <div class="side_boxes">
+                <h4>Create your first playlist</h4>
+                <h5>its easy, we'll help you</h5>
+                <Button>Create playlist</Button>
+            </div>
+            <div class="side_boxes">
+                <h4>Let's find some podcasts to follow</h4>
+                <h5>We'll keep you updated on new episodes</h5>
+                <Button id = "brows_button">Browse podcast</Button>
+            </div>
+        </aside>
+
+
+        <main class="main_content">
+            <!-- <div class="main_boxes main_box1"> -->
+                <h2>Start Browsing</h2>
+                <div class="card_container1">
+                    <div class="cards cards11">
+                        <div>Music</div>
+                        <img src="assets/cardimage15.jpg" alt="">
+                    </div>
+                    <div class="cards cards12">
+                        <div>Poadcasts</div>
+                        <img src="assets/cardsimage16.jpg" alt="">
+                    </div>
+                    <div class="cards cards13">
+                        <div>Live Events</div>
+                        <img src="assets/cardsimage13.jpg" alt="">
+                    </div>
+                </div>
+            <!-- </div> -->
+
+
+            <div class="main_boxes main_box2">
+                <h2>Brows All</h2>
+                <div class = "card_container2">
+                    <div class="cards2 card21" id = "card21"><div>Made For You</div><img src="assets/cardsimage1.jpg" alt=""></div>
+                    <div class="cards2"><div>New Releases</div><img src="assets/cardsimage2.jpg" alt=""></div>
+                    <div class="cards2"><div>Rain & Monsoon</div><img src="assets/cardsimage3.jpg" alt=""></div>
+                    <div class="cards2"><div>Hindi</div><img src="assets/cardsimage4.jpg" alt=""></div>
+                    <div class="cards2"><div>Telugu</div><img src="assets/cardsimage1.jpg" alt=""></div>
+                    <div class="cards2"><div>Punjabi</div><img src="assets/cardsimage2.jpg" alt=""></div>
+                    <div class="cards2"><div>Charts</div><img src="assets/cardsimage1.jpg" alt=""></div>
+                    <div class="cards2"><div>Podcast Charts</div><img src="assets/cardsimage3.jpg" alt=""></div>
+                    <div class="cards2"><div>Podcast New Releases</div><img src="assets/cardsimage2.jpg" alt=""></div>
+                    <div class="cards2"><div>Video Podcasts</div><img src="assets/cardsimage1.jpg" alt=""></div>
+                    <div class="cards2"><div>Business & Technology</div><img src="assets/cardsimage10.jpg" alt=""></div>
+                    <div class="cards2"><div>Tamil</div><img src="assets/cardsimage9.jpg" alt=""></div>
+                    <div class="cards2"><div>Malyalam</div><img src="assets/cardsimage5.jpg" alt=""></div>
+                    <div class="cards2"><div>Bhojpuri</div><img src="assets/cardsimage8.jpg" alt=""></div>
+                    <div class="cards2"><div>music</div><img src="assets/cardsimage3.jpg" alt=""></div>
+                    <div class="cards2"><div>Ghajals</div><img src="assets/cardsimage7.jpg" alt=""></div>
+                    <div class="cards2"><div>Discover</div><img src="assets/cardsimage4.jpg" alt=""></div>
+                    <div class="cards2"><div>Summer</div><img src="assets/cardsimage1.jpg" alt=""></div>
+                    <div class="cards2"><div>Pop</div><img src="assets/cardsimage2.jpg" alt=""></div>
+                    <div class="cards2"><div>Indie</div><img src="assets/cardsimage1.jpg" alt=""></div>
+                    <div class="cards2"><div>Love</div><img src="assets/cardsimage8.jpg" alt=""></div>
+                    <div class="cards2"><div>Trending</div><img src="assets/cardsimage6.jpg" alt=""></div>
+                    <div class="cards2"><div>Mood</div><img src="assets/cardsimage5.jpg" alt=""></div>
+                    <div class="cards2"><div>Party</div><img src="assets/cardsimage10.jpg" alt=""></div>
+                    <div class="cards2"><div>Devotional</div><img src="assets/cardsimage7.jpg" alt=""></div>
+                    <div class="cards2"><div>Decades</div><img src="assets/cardsimage5.jpg" alt=""></div>
+                    <div class="cards2"><div>Hip-Hop</div><img src="assets/cardsimage2.jpg" alt=""></div>
+                    <div class="cards2"><div>Dance</div><img src="assets/cardsimage1.jpg" alt=""></div>
+                    <div class="cards2"><div>Student</div><img src="assets/cardsimage3.jpg" alt=""></div>
+                    <div class="cards2"><div>Chill</div><img src="assets/cardsimage4.jpg" alt=""></div>
+                    <div class="cards2"><div>Gaming</div><img src="assets/cardsimage5.jpg" alt=""></div>
+                    <div class="cards2"><div>K-pop</div><img src="assets/cardsimage7.jpg" alt=""></div>
+                    <div class="cards2"><div>Workout</div><img src="assets/cardsimage1.jpg" alt=""></div>
+                    <div class="cards2"><div>RADAR</div><img src="assets/cardsimage7.jpg" alt=""></div>
+                    <div class="cards2"><div>Fresh Finds</div><img src="assets/cardsimage2.jpg" alt=""></div>
+                    <div class="cards2"><div>Rock</div><img src="assets/cardsimage10.jpg" alt=""></div>
+                    <div class="cards2"><div>Sleep</div><img src="assets/cardsimage8.jpg" alt=""></div>
+                    <div class="cards2"><div>Indian Classical</div><img src="assets/cardsimage5.jpg" alt=""></div>
+                    <div class="cards2"><div>Instrumental</div><img src="assets/cardsimage6.jpg" alt=""></div>
+                    <div class="cards2"><div>Spotify Singles</div><img src="assets/cardsimage3.jpg" alt=""></div>
+                    <div class="cards2"><div>At Home</div><img src="assets/cardsimage7.jpg" alt=""></div>
+                    <div class="cards2"><div>Country</div><img src="assets/cardsimage1.jpg" alt=""></div>
+                    <div class="cards2"><div>R&B</div><img src="assets/cardsimage9.jpg" alt=""></div>
+                    <div class="cards2"><div>Metal</div><img src="assets/cardsimage1.jpg" alt=""></div>
+                    <div class="cards2"><div>Jazz</div><img src="assets/cardsimage6.jpg" alt=""></div>
+                    <div class="cards2"><div>Classical</div><img src="assets/cardsimage10.jpg" alt=""></div>
+                    <div class="cards2"><div>Folks & Acoustic</div><img src="assets/cardsimage1.jpg" alt=""></div>
+                    <div class="cards2"><div>Focus</div><img src="assets/cardsimage4.jpg" alt=""></div>
+                    <div class="cards2"><div>Disney</div><img src="assets/cardsimage1.jpg" alt=""></div>
+                    <div class="cards2"><div>Soul</div><img src="assets/cardsimage3.jpg" alt=""></div>
+                    <div class="cards2"><div>Children & Family</div><img src="assets/cardsimage1.jpg" alt=""></div>
+                    <div class="cards2"><div>Anime</div><img src="assets/cardsimage2.jpg" alt=""></div>
+                    <div class="cards2"><div>TV & Films</div><img src="assets/cardsimage1.jpg" alt=""></div>
+                    <div class="cards2"><div>Punk</div><img src="assets/cardsimage1.jpg" alt=""></div>
+                    <div class="cards2"><div>Ambient</div><img src="assets/cardsimage9.jpg" alt=""></div>
+                    <div class="cards2"><div>Blues</div><img src="assets/cardsimage8.jpg" alt=""></div>
+                    <div class="cards2"><div>Cooking & Dining</div><img src="assets/cardsimage1.jpg" alt=""></div>
+                    <div class="cards2"><div>Alternative</div><img src="assets/cardsimage3.jpg" alt=""></div>
+                    <div class="cards2"><div>Wellness</div><img src="assets/cardsimage5.jpg" alt=""></div>
+                    <div class="cards2"><div>Travel</div><img src="assets/cardsimage4.jpg" alt=""></div>
+                    <div class="cards2"><div>Caribbean</div><img src="assets/cardsimage6.jpg" alt=""></div>
+                    <div class="cards2"><div>Afro</div><img src="assets/cardsimage10.jpg" alt=""></div>
+                    <div class="cards2"><div>Songwriters</div><img src="assets/cardsimage9.jpg" alt=""></div>
+                    <div class="cards2"><div>Nature & Noise</div><img src="assets/cardsimage8.jpg" alt=""></div>
+                    <div class="cards2"><div>Funk & Disco</div><img src="assets/cardsimage7.jpg" alt=""></div>
+                    <div class="cards2"><div>Netflix</div><img src="assets/cardsimage3.jpg" alt=""></div>
+                       <div class="cards2"><div>Hindi</div><img src="assets/cardsimage4.jpg" alt=""></div>
+                    <div class="cards2"><div>Telugu</div><img src="assets/cardsimage1.jpg" alt=""></div>
+                    <div class="cards2"><div>Punjabi</div><img src="assets/cardsimage2.jpg" alt=""></div>
+                    <div class="cards2"><div>Charts</div><img src="assets/cardsimage1.jpg" alt=""></div>
+                    <div class="cards2"><div>Podcast Charts</div><img src="assets/cardsimage3.jpg" alt=""></div>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <footer class="main_footer_container">
+                <div class = "link_box_container">
+                    <div class="footer_boxes footer_flex">
+                        <p>Company</p>
+                        <a href="">About</a>
+                        <a href="">Jobs</a>
+                        <a href="">For the Record</a>
+                    </div>
+                    <div class="footer_boxes footer_flex">
+                        <p>Communities</p>
+                        <a href="">For Artists</a>
+                        <a href="">Developers</a>
+                        <a href="">Advertising</a>
+                        <a href="">Investors</a>
+                        <a href="">Vendors</a>
+                    </div>
+                    <div class="footer_boxes footer_flex">
+                         <p>Useful links</p>
+                        <a href="">Support</a>
+                        <a href="">Free Mobile App</a>
+                        <a href="">Popular by Country</a>
+                    </div>
+                    <div class="footer_boxes footer_flex">
+                        <p>Spotify Plans</p>
+                        <a href="">Premium Individual</a>
+                        <a href="">Premium Duo</a>
+                        <a href="">Premium Family</a>
+                        <a href="">Premium Student</a>
+                        <a href="">Spotify Free</a>
+                    </div>
+                    <div class="footer_boxes" id = "media_box">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-google"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+                 <br>
+                <hr>
+                <div class = "below_footer_container">
+                    <ul>
+                        <li><a href="">Legal</a></li>
+                        <li><a href="">Safety & Privacy Center</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Cookies</a></li>
+                        <li><a href="">About Ads</a></li>
+                        <li><a href="">Accessibility</a></li>
+                    </ul>
+                    <p>@2025 spotify AB</p>
+                </div>
+            </footer>
+        </main>
+    </div>
+        <footer class="music-player">music-player</footer>
+    </div>
+    
+</body>
+</html>
