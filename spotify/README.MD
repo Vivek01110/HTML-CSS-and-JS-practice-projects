@@ -4,7 +4,7 @@ This is a responsive front-end clone of the **Spotify Browse Page**, built using
 
 ## 🌐 Demo
 
-![Spotify Clone Screenshot](assets/spotifyclonescs.png)
+![Spotify Clone Screenshot](spotifyclonescs.png)
 
 ## 🔧 Tech Stack
 
